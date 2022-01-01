@@ -1,0 +1,29 @@
+.navItem {
+    
+    list-style-type: number;
+    font-weight: 700;
+    padding: 20px;
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &:hover, &:active {
+        background-color: #80808067;
+    }
+
+    &__submenu {
+        display: flex;
+        flex-direction: column;
+
+        & > a {
+            padding: 20px 20px 20px 50px;
+            transition: all 0.4s ease-in-out;
+
+            &:hover,
+            &:active {
+                background-color: #80808067;
+            }
+        }
+    }
+}

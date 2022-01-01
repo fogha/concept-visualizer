@@ -1,0 +1,25 @@
+@import "../src/styles/variables";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'lato', 'Roboto';
+  color: $primaryFontColor;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color: $primaryFontColor;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 42px;
+}
